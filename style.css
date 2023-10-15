@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: url(./bg2.jpg) center no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+.navbar {
+  margin: 2rem;
+}
+
+.nav-container {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-container .logo h1 {
+  font-weight: 300;
+}
+
+.nav-container ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.nav-container ul li {
+  padding-right: 1rem;
+  font-weight: 300;
+}
+
+/* header */
+
+.header {
+  margin: 2rem;
+}
+
+.header h1 {
+  font-weight: 300;
+  color: #dadada;
+}
+
+.header h1 span {
+  font-weight: 400;
+  color: #fff;
+}
+
+.header .btn {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.288);
+  width: 25%;
+  height: 15%;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-top: 3rem;
+}
+
+.header .btn a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.header .btn i {
+  transform: rotate(-50deg);
+}
+
+.header p {
+  margin-top: 3rem;
+  width: 25%;
+  font-weight: 300;
+}
+
+/* main */
+
+section {
+  margin: 2rem;
+  height: 100dvh;
+  display: flex;
+  align-items: center;
+}
+
+/* section .container {
+  overflow: hidden;
+} */
+
+section h1 {
+  font-size: 17rem;
+  font-weight: 400;
+  letter-spacing: -15px;
+  visibility: hidden;
+}
+
+section h1 sup i {
+  font-size: 4rem;
+  vertical-align: text-top;
+  margin-top: 4rem;
+}
